@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Elements</title>
+  </head>
+  <body>
+    <h1>Image Elements</h1>
+
+    <!-- srcset - untuk mengatur path gambar sesuai lebar browser
+    <img src="img/cat_small.jpg" alt="Kucing Abu-abu" srcset="img/cat_small.jpg 500w, img/cat_medium.jpg 750w, img/cat_large.jpg 1000w" /> -->
+
+    <!-- sizes - untuk mengatur ukuran gambar yang berbeda berdasarkan "media query"
+    <img src="img/cat_small.jpg" alt="Kucing Abu-abu" srcset="img/cat_small.jpg 500w, img/cat_medium.jpg 750w, img/cat_large.jpg 1000w" sizes="(min-width: 1200px) 50vw" /> -->
+
+    <!-- loading - menentukan bagaimana gambar di-load oleh browser, bisa diisi 'eager' (default) atau 'lazy'
+    <img src="img/cat_small.jpg" alt="Kucing Abu-abu" srcset="img/cat_small.jpg 500w, img/cat_medium.jpg 750w, img/cat_large.jpg 1000w" sizes="(min-width: 1200px) 50vw" loading="lazy" /> -->
+
+    <!-- figure - merepresentasikan konten yang berdiri sendiri tanpa mempengaruhi flow halaman
+    <figure>
+      <img src="img/cat_small.jpg" alt="Kucing abu-abu pake kaca mata item" />
+      <figcaption>Kucing abu-abu pake kaca mata item</figcaption>
+    </figure> -->
+
+    <!-- picture - bertujuan untuk optimasi halaman agar menghemat bandwidth dan mempercepat load time -->
+    <picture>
+      <source media="(min-width: 960px)" srcset="img/cat_large.jpg" sizes="50vw" />
+      <source media="(min-width: 600px)" srcset="img/cat_medium.jpg" />
+      <img class="example" src="img/cat_small.jpg" alt="Kucing abu-abu" />
+    </picture>
+  </body>
+</html>
