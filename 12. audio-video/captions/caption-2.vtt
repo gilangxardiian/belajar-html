@@ -1,0 +1,1376 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.890
+halo halo teman-teman semua selamat
+
+00:00:01.890 --> 00:00:04.350
+datang kembali di channel web Puber sama
+
+00:00:04.350 --> 00:00:06.270
+saya sandhika Galih n di video kali ini
+
+00:00:06.270 --> 00:00:09.120
+kita akan memulai sebuah seri baru atau
+
+00:00:09.120 --> 00:00:11.340
+playlist baru yaitu playlist untuk
+
+00:00:11.340 --> 00:00:13.980
+belajar teknologi HTML5 temen-temennya
+
+00:00:13.980 --> 00:00:15.089
+jadi setelah sebelumnya mungkin
+
+00:00:15.089 --> 00:00:16.920
+teman-teman pernah belajar mengenai html
+
+00:00:16.920 --> 00:00:18.600
+dasar kali ini kita akan lanjutkan
+
+00:00:18.600 --> 00:00:21.359
+kembali pemahamannya mengenai HTML5 ya
+
+00:00:21.359 --> 00:00:23.880
+kita akan belajar mulai dari definisinya
+
+00:00:23.880 --> 00:00:26.640
+HTML5 perkembangannya fitur-fitur baru
+
+00:00:26.640 --> 00:00:28.470
+apa aja yang ada di dalamnya Bagaimana
+
+00:00:28.470 --> 00:00:30.929
+cara pakainya dan masih banyak lagi ya
+
+00:00:30.929 --> 00:00:33.090
+Dan seperti biasa di video pertama kita
+
+00:00:33.090 --> 00:00:35.340
+kali ini seperti video-video pertama
+
+00:00:35.340 --> 00:00:37.260
+dipilih saya sebelumnya kita akan bahas
+
+00:00:37.260 --> 00:00:40.230
+dulu mengenai Apa itu HTML5 ya apa
+
+00:00:40.230 --> 00:00:43.290
+definisinya Kenapa bisa sampai ada HTML5
+
+00:00:43.290 --> 00:00:45.480
+Bagaimana perkembangannya Terus apa sih
+
+00:00:45.480 --> 00:00:47.850
+bedanya HTML5 ini dengan html
+
+00:00:47.850 --> 00:00:49.620
+versi-versi sebelumnya yang mungkin ada
+
+00:00:49.620 --> 00:00:51.420
+dari teman-teman juga Yang penasaran ya
+
+00:00:51.420 --> 00:00:53.160
+Jadi kalau begitu tanpa berlama-lama
+
+00:00:53.160 --> 00:00:54.780
+lagi kita akan langsung masuk aja ke
+
+00:00:54.780 --> 00:00:56.579
+serinya kita mulai video pertama ini
+
+00:00:56.579 --> 00:00:59.670
+membahas mengenai Apa itu HTML5 kalian
+
+00:00:59.670 --> 00:01:01.690
+kita akan nih dulu dari disklaimer ya
+
+00:01:01.690 --> 00:01:03.519
+teman-teman ya jadi sekali lagi ini
+
+00:01:03.519 --> 00:01:06.159
+adalah bukan playlist atau materi untuk
+
+00:01:06.159 --> 00:01:08.409
+html dasar yang dimana kita belajar
+
+00:01:08.409 --> 00:01:10.720
+mengenai Apa itu struktur dari HTML
+
+00:01:10.720 --> 00:01:13.390
+Bruce juga tag dan atribut itu enggak
+
+00:01:13.390 --> 00:01:15.520
+kan kita bahagia ini adalah materi
+
+00:01:15.520 --> 00:01:18.850
+lanjutan dari HTML dasar bahkan Saran
+
+00:01:18.850 --> 00:01:20.590
+saya sebaiknya teman-teman sudah
+
+00:01:20.590 --> 00:01:23.080
+mempelajari dulu beberapa playlist saya
+
+00:01:23.080 --> 00:01:26.229
+berikut ini ya html dasar SS dasar CSS
+
+00:01:26.229 --> 00:01:29.560
+Leo Ting javascript dasar dan juga dong
+
+00:01:29.560 --> 00:01:31.479
+kenapa karena nanti di video-video
+
+00:01:31.479 --> 00:01:34.600
+kedepan akan ada materi dari HTML5 ini
+
+00:01:34.600 --> 00:01:37.020
+yang mengharuskan kita untuk menggunakan
+
+00:01:37.020 --> 00:01:39.670
+teknologi-teknologi ini ya semeriah jadi
+
+00:01:39.670 --> 00:01:41.710
+Silahkan buat yang belum boleh Diulangi
+
+00:01:41.710 --> 00:01:43.929
+dulu atau mundur dulu untuk belajar
+
+00:01:43.929 --> 00:01:46.270
+mengenai materi-materi ini ya dasarnya
+
+00:01:46.270 --> 00:01:47.890
+langsung kita masuk membahas mengenai
+
+00:01:47.890 --> 00:01:50.740
+Apa itu HTML5 ya Jadi kita akan coba
+
+00:01:50.740 --> 00:01:53.590
+lihat definisi penjelasan dan juga nanti
+
+00:01:53.590 --> 00:01:55.929
+kita akan lihat sejarahnya Seperti apa
+
+00:01:55.929 --> 00:01:57.549
+karena itu cukup menarik teman-teman ya
+
+00:01:57.549 --> 00:01:59.500
+kita mulai dari definisinya Jadi kalau
+
+00:01:59.500 --> 00:02:03.380
+kata website yang namanya html.com Swag
+
+00:02:03.380 --> 00:02:05.899
+doto RG inilah website yang penting
+
+00:02:05.899 --> 00:02:07.250
+banget yang nantinya akan kita jadikan
+
+00:02:07.250 --> 00:02:09.619
+sebagai acuan kalau kita mau tahu
+
+00:02:09.619 --> 00:02:11.480
+perkembangan dari html-nya terkena di
+
+00:02:11.480 --> 00:02:12.890
+kita bahas ya ya Jadi kalau kita lihat
+
+00:02:12.890 --> 00:02:15.760
+istilah HTML5 ini sebenarnya digunakan
+
+00:02:15.760 --> 00:02:18.290
+sebagai jargon yang mengacu pada
+
+00:02:18.290 --> 00:02:20.569
+teknologi web yang modern yang
+
+00:02:20.569 --> 00:02:23.209
+dikembangkan oleh What Wage jadi
+
+00:02:23.209 --> 00:02:25.220
+teknologi-teknologi html yang saat ini
+
+00:02:25.220 --> 00:02:27.560
+kita pakai itu sebetulnya istilahnya
+
+00:02:27.560 --> 00:02:31.670
+adalah HTML5 dan sebetulnya 5 ini saat
+
+00:02:31.670 --> 00:02:33.799
+ini udah bukan versi lagi lo kenapa Pak
+
+00:02:33.799 --> 00:02:35.660
+bukan versi nanti kita lihat ya Nah
+
+00:02:35.660 --> 00:02:36.470
+berikutnya mungkin teman-teman
+
+00:02:36.470 --> 00:02:39.079
+bertanya-tanya apa sih What Wega itu ya
+
+00:02:39.079 --> 00:02:41.690
+bukannya yang membuat HTML itu adalah
+
+00:02:41.690 --> 00:02:44.150
+organisasi yang namanya w3c Nah sekarang
+
+00:02:44.150 --> 00:02:46.370
+kita lihat apa sebetulnya What Wega itu
+
+00:02:46.370 --> 00:02:48.500
+yang pertama What Wega Ini adalah sebuah
+
+00:02:48.500 --> 00:02:51.079
+singkatan dari the web hypertext
+
+00:02:51.079 --> 00:02:54.200
+application teknologi working group jadi
+
+00:02:54.200 --> 00:02:56.209
+dia adalah sebuah grup pakumpulan dari
+
+00:02:56.209 --> 00:02:58.069
+orang-orang pinter ya orang-orang keren
+
+00:02:58.069 --> 00:03:00.030
+yang bertugas untuk mengembangkan
+
+00:03:00.030 --> 00:03:02.760
+teknologi atau aplikasi web hypertext
+
+00:03:02.760 --> 00:03:05.490
+nah ini isinya komunitas ini ya berisi
+
+00:03:05.490 --> 00:03:06.900
+orang-orang yang tertarik pada
+
+00:03:06.900 --> 00:03:09.030
+perkembangan teknologi web dan juga yang
+
+00:03:09.030 --> 00:03:10.920
+senang murid-murid web mereka berkumpul
+
+00:03:10.920 --> 00:03:13.170
+disini dan sebetulnya siapapun bisa
+
+00:03:13.170 --> 00:03:14.940
+bergabung Jadi kalau misalnya Kalian
+
+00:03:14.940 --> 00:03:17.730
+juga tertarik untuk mengembangkan html
+
+00:03:17.730 --> 00:03:19.440
+ya Misalnya Nanti kalian bisa coba
+
+00:03:19.440 --> 00:03:21.780
+kunjungi aja website ini kalau pengen
+
+00:03:21.780 --> 00:03:23.790
+ikut terlibat mengembangkan teknologi
+
+00:03:23.790 --> 00:03:26.130
+web dan mereka ini tugasnya adalah
+
+00:03:26.130 --> 00:03:28.709
+membuat standar dan pengujian untuk
+
+00:03:28.709 --> 00:03:31.230
+teknologi teknologi web khususnya html
+
+00:03:31.230 --> 00:03:33.269
+ya Jadi mereka inilah yang oleh mulik
+
+00:03:33.269 --> 00:03:35.430
+menemukan dan merumuskan kira-kira
+
+00:03:35.430 --> 00:03:37.410
+teknologi apa aja yang nantinya bakalan
+
+00:03:37.410 --> 00:03:39.690
+diterapin di browser kita ya pertama
+
+00:03:39.690 --> 00:03:42.660
+kali dibikin itu tahun 2004 ya isinya
+
+00:03:42.660 --> 00:03:45.000
+tuh orang-orang developer developer dari
+
+00:03:45.000 --> 00:03:47.970
+Apple multilevel Nation dan juga Opera
+
+00:03:47.970 --> 00:03:50.670
+Nah kenapa siwage ini bisa dibentuk nah
+
+00:03:50.670 --> 00:03:52.830
+ini awalnya ada yang Seruni
+
+00:03:52.830 --> 00:03:54.569
+teman-temannya Karena pada saat itu di
+
+00:03:54.569 --> 00:03:57.540
+tahun 2004 organisasi yang namanya w3c
+
+00:03:57.540 --> 00:04:00.489
+ini mulai tidak tertarik untuk lengkap
+
+00:04:00.489 --> 00:04:02.709
+html nah mereka tertariknya untuk
+
+00:04:02.709 --> 00:04:04.720
+mengembangkan sebuah teknologi yang lain
+
+00:04:04.720 --> 00:04:07.209
+untuk menggantikan html ini sangat
+
+00:04:07.209 --> 00:04:08.829
+menarik teman-temannya bahkan kita akan
+
+00:04:08.829 --> 00:04:11.049
+coba bahas dulu mengenai sejarah dari
+
+00:04:11.049 --> 00:04:13.209
+HTML5 ya cepat nanti ketemu tuh kenapa
+
+00:04:13.209 --> 00:04:16.539
+OTG dibentuk Terus kenapa w3c yang pada
+
+00:04:16.539 --> 00:04:19.209
+awalnya itu membuat HTML malah jadi
+
+00:04:19.209 --> 00:04:21.699
+nggak tertarik lagi membangun html ya
+
+00:04:21.699 --> 00:04:24.460
+kita mundur dulu dari sejak dibuatnya
+
+00:04:24.460 --> 00:04:26.710
+html banner teman tahu ya html itu
+
+00:04:26.710 --> 00:04:28.479
+pertama kali dibuat oleh seorang
+
+00:04:28.479 --> 00:04:30.789
+peneliti yang keren banget yang pinter
+
+00:04:30.789 --> 00:04:32.979
+banget namanya tim berners-lee Ia
+
+00:04:32.979 --> 00:04:34.930
+merupakan sebuah peneliti di serem ya
+
+00:04:34.930 --> 00:04:37.620
+sebuah lembaga riset nuklir pada tahun
+
+00:04:37.620 --> 00:04:40.630
+1990 html awalnya itu didalamnya cuman
+
+00:04:40.630 --> 00:04:43.030
+ada 18 tank Kalau sekarang kan
+
+00:04:43.030 --> 00:04:44.710
+teman-teman bisa pakai banyak banget ya
+
+00:04:44.710 --> 00:04:46.570
+tek-tek atau elemen-elemen di dalamnya
+
+00:04:46.570 --> 00:04:48.820
+Bapak tim berners-lee ini terinspirasi
+
+00:04:48.820 --> 00:04:52.080
+dari sebuah markup language yang namanya
+
+00:04:52.080 --> 00:04:55.389
+sgml itu atau standar generalized markup
+
+00:04:55.389 --> 00:04:57.850
+language Jadi sebelum html tuh
+
+00:04:57.850 --> 00:05:00.379
+sebetulnya ada lagi yang namanya SG new
+
+00:05:00.379 --> 00:05:03.199
+dan html terinspirasi dari ini apa itu
+
+00:05:03.199 --> 00:05:05.449
+sgml jadi dia merupakan standar
+
+00:05:05.449 --> 00:05:07.460
+penulisan dokumen yang ada di
+
+00:05:07.460 --> 00:05:09.650
+laboratorium Stern ini ya Jadi kalau
+
+00:05:09.650 --> 00:05:11.479
+peneliti-peneliti nya mau nulis sebuah
+
+00:05:11.479 --> 00:05:14.180
+dokumen standar penulisannya pakai sgml
+
+00:05:14.180 --> 00:05:17.449
+gitu nah terus setelah dibuat oleh Bapak
+
+00:05:17.449 --> 00:05:20.440
+tim berners-lee ini pada tahun 1993
+
+00:05:20.440 --> 00:05:23.090
+diusulkan ke Sebuah upaya organisasi
+
+00:05:23.090 --> 00:05:26.629
+mungkin ya yang namanya RTF internet
+
+00:05:26.629 --> 00:05:29.210
+engineering task Force agar bisa
+
+00:05:29.210 --> 00:05:31.729
+digunakan secara umum karena saat itu
+
+00:05:31.729 --> 00:05:33.409
+belum ada yang namanya w3c kalau
+
+00:05:33.409 --> 00:05:35.000
+sekarang yang bertugas melakukan ini
+
+00:05:35.000 --> 00:05:37.190
+adalah w3c yaitu pertama kali ya
+
+00:05:37.190 --> 00:05:39.440
+berikutnya pengembangannya disebut
+
+00:05:39.440 --> 00:05:42.440
+dengan html 2.0 itu mulai dibuat pada
+
+00:05:42.440 --> 00:05:46.400
+tahun 1994 nah html 2 ini mulai dibikin
+
+00:05:46.400 --> 00:05:49.610
+oleh sebuah working group yang ada di
+
+00:05:49.610 --> 00:05:53.000
+dalam itf ini jadi ada orang-orang yang
+
+00:05:53.000 --> 00:05:55.159
+sekarang bertugas untuk murid-murid
+
+00:05:55.159 --> 00:05:57.560
+perkembangan dari HTML dari yang dibikin
+
+00:05:57.560 --> 00:06:00.030
+sama bapak tim ini hanya 18 teks
+
+00:06:00.030 --> 00:06:02.790
+tambahin teknik nambahin tabel nambahin
+
+00:06:02.790 --> 00:06:04.380
+ada yang namanya image map Bruce juga
+
+00:06:04.380 --> 00:06:06.540
+nambahin fitur upload file berikutnya
+
+00:06:06.540 --> 00:06:08.360
+dikembangkan terus sampai pada tahun
+
+00:06:08.360 --> 00:06:12.210
+1997 itu html versi 3 dibuat atau
+
+00:06:12.210 --> 00:06:13.950
+diusulkan Nah sekarang mulai ada
+
+00:06:13.950 --> 00:06:16.710
+organisasi yang namanya w3c ya dan html
+
+00:06:16.710 --> 00:06:17.970
+itu mulai dikembangkan dan
+
+00:06:17.970 --> 00:06:21.330
+distandarisasi oleh w3c ya dan w3c ini
+
+00:06:21.330 --> 00:06:23.370
+adalah sebuah organisasi yang tadi
+
+00:06:23.370 --> 00:06:25.740
+dipimpin oleh Bapak tim berners-lee ini
+
+00:06:25.740 --> 00:06:27.510
+jadi sekarang khusus Enggak lagi bagian
+
+00:06:27.510 --> 00:06:30.240
+dari etc sampai html3 perkembangannya
+
+00:06:30.240 --> 00:06:32.730
+adalah dia menghilangkan tek-tek untuk
+
+00:06:32.730 --> 00:06:34.710
+formula matematik yang tadinya itu ada
+
+00:06:34.710 --> 00:06:37.170
+di dalam ATM yang versi lama kalau kita
+
+00:06:37.170 --> 00:06:39.810
+menulis informal matematika ada teknik
+
+00:06:39.810 --> 00:06:41.880
+khusus Nah sekarang dikeluarin dia jadi
+
+00:06:41.880 --> 00:06:44.490
+bahasa sendiri yang namanya map ML Terus
+
+00:06:44.490 --> 00:06:47.520
+juga menghilangkan teh Blink dan Marki
+
+00:06:47.520 --> 00:06:49.890
+disebutnya Udah lama nih teh Blink dan
+
+00:06:49.890 --> 00:06:52.110
+Mark ini disarankan untuk tidak
+
+00:06:52.110 --> 00:06:55.170
+digunakannya lu jadi html 1/2 html3
+
+00:06:55.170 --> 00:06:58.800
+berikutnya kita lanjut lagi ke html4 nah
+
+00:06:58.800 --> 00:07:03.099
+tempel 4 ini dibuat pada Desember 1997
+
+00:07:03.099 --> 00:07:05.529
+nah disini mulai perkembangannya agak
+
+00:07:05.529 --> 00:07:08.680
+berbeda karena pada saat html4 itu html
+
+00:07:08.680 --> 00:07:11.289
+dibuat dalam tiga versi itu ada yang
+
+00:07:11.289 --> 00:07:13.749
+namanya versi Strike versi transisional
+
+00:07:13.749 --> 00:07:16.240
+dan framecad Nah kenapa dibuat 3 versi
+
+00:07:16.240 --> 00:07:19.749
+supaya html ini bisa ada yang support ke
+
+00:07:19.749 --> 00:07:22.270
+versi lama ada yang tidak terjadi kalau
+
+00:07:22.270 --> 00:07:24.159
+misalnya kita menggunakan yang strict
+
+00:07:24.159 --> 00:07:26.559
+itu ATMnya khusus menggunakan teknik
+
+00:07:26.559 --> 00:07:28.599
+yang baru aja nah teknik yang Sudah
+
+00:07:28.599 --> 00:07:30.759
+usang atau istilahnya deprecated itu
+
+00:07:30.759 --> 00:07:32.800
+udah-udah dipakai gitu sedangkan kalau
+
+00:07:32.800 --> 00:07:35.770
+kita mau pake teknik yang lama itu kita
+
+00:07:35.770 --> 00:07:38.770
+harus pakai html yang versi transisional
+
+00:07:38.770 --> 00:07:41.649
+sedangkan kalau kita mau pake html yang
+
+00:07:41.649 --> 00:07:44.439
+ada elemen bertype frame kita harus
+
+00:07:44.439 --> 00:07:46.990
+pakai ATM yang tipenya frame set Nah
+
+00:07:46.990 --> 00:07:48.849
+jadi mulai ada pilihan nih kita memilih
+
+00:07:48.849 --> 00:07:50.319
+yang mana mau menggunakan versi yang
+
+00:07:50.319 --> 00:07:51.999
+baru Versi yang lama atau yang ada
+
+00:07:51.999 --> 00:07:54.430
+framenya terus juga dia theme versi 4
+
+00:07:54.430 --> 00:07:55.779
+ini mulai banyak menghilangkan
+
+00:07:55.779 --> 00:07:58.539
+elemen-elemen style kosmetik ya karena
+
+00:07:58.539 --> 00:08:01.430
+disini sudah mulai akan agar semua yang
+
+00:08:01.430 --> 00:08:03.650
+berhubungan dengan tampilan dengan style
+
+00:08:03.650 --> 00:08:06.620
+itu ganti aja dengan penggunaan CSS gitu
+
+00:08:06.620 --> 00:08:08.270
+jadi jangan kasih warna Jangan kasih
+
+00:08:08.270 --> 00:08:11.300
+ukuran Jangan kasih posisi pakai html
+
+00:08:11.300 --> 00:08:13.879
+supaya terpisah antara konten dan juga
+
+00:08:13.879 --> 00:08:17.840
+persentase GTA jadi sampai 1997 nah di
+
+00:08:17.840 --> 00:08:22.370
+tahun 1999 w3c ini mulai membuat sebuah
+
+00:08:22.370 --> 00:08:24.560
+teknologi baru yang katanya akan
+
+00:08:24.560 --> 00:08:26.990
+digunakan untuk menggantikan html yaitu
+
+00:08:26.990 --> 00:08:31.430
+namanya xhtml ini adalah versi xml dari
+
+00:08:31.430 --> 00:08:34.190
+HTML yang dinilai lebih bagus Nah jadi
+
+00:08:34.190 --> 00:08:36.349
+mulai pada tahun ini pengembangan html
+
+00:08:36.349 --> 00:08:38.570
+sudah mulai ditinggalin karena w3c nya
+
+00:08:38.570 --> 00:08:41.839
+fokus ke versi yang lain yaitu xhtml nah
+
+00:08:41.839 --> 00:08:45.170
+sampai pada tahun 2004 itu ketika ada
+
+00:08:45.170 --> 00:08:46.339
+sebuah workshop yang diselenggarakan
+
+00:08:46.339 --> 00:08:48.730
+oleh w3c ada orang-orang yang
+
+00:08:48.730 --> 00:08:51.649
+mengusulkan bahwa ATM itu mesti
+
+00:08:51.649 --> 00:08:54.020
+dilanjutkan ya dengan menggunakan versi
+
+00:08:54.020 --> 00:08:56.329
+yang baru HTML5 akhirnya muncul ini
+
+00:08:56.329 --> 00:08:58.250
+adalah orang-orang dari Mozilla dan juga
+
+00:08:58.250 --> 00:09:00.750
+opera jadi dalam workshop kita ngusulin
+
+00:09:00.750 --> 00:09:02.760
+kembali lagi dong html-nya jangan
+
+00:09:02.760 --> 00:09:05.610
+dicuekin gitu nah ternyata usulan ini
+
+00:09:05.610 --> 00:09:08.130
+ditolak sama W3 c-nya karena mereka Lagi
+
+00:09:08.130 --> 00:09:10.800
+fokus untuk mengembangkan xhtml padahal
+
+00:09:10.800 --> 00:09:12.630
+menurut orang-orang dari Mozilla dan
+
+00:09:12.630 --> 00:09:14.580
+Opera ini html itu mesti dilanjutkan
+
+00:09:14.580 --> 00:09:17.040
+pengembangannya bahkan harusnya
+
+00:09:17.040 --> 00:09:20.580
+pengembangan html ini fokus ke backward
+
+00:09:20.580 --> 00:09:23.070
+compatibility jadi dia kompatibel dengan
+
+00:09:23.070 --> 00:09:24.990
+versi-versi sebelumnya Nah karena
+
+00:09:24.990 --> 00:09:27.690
+ditolak akhirnya mereka memutuskan untuk
+
+00:09:27.690 --> 00:09:30.660
+membuat sebuah organisasi terpisah jadi
+
+00:09:30.660 --> 00:09:32.340
+orang-orang dari Apple nambah Nia jadi
+
+00:09:32.340 --> 00:09:34.620
+Apple Mozilla dan Opera karena mereka
+
+00:09:34.620 --> 00:09:36.600
+juga fokus di browser ya browser itu
+
+00:09:36.600 --> 00:09:38.610
+menerapkan teknologi teknologi yang
+
+00:09:38.610 --> 00:09:41.460
+sudah disetujui oleh w3c mereka pengen
+
+00:09:41.460 --> 00:09:43.200
+agar teknologi-teknologi yang diterapin
+
+00:09:43.200 --> 00:09:45.000
+di browser mereka masing-masing itu
+
+00:09:45.000 --> 00:09:47.190
+menggunakan HTML mereka memutuskan untuk
+
+00:09:47.190 --> 00:09:49.740
+membuat sebuah organisasi What WG tadi
+
+00:09:49.740 --> 00:09:52.440
+yang fokus ke pengembangan html agar
+
+00:09:52.440 --> 00:09:54.960
+kompatibel untuk versi-versi sebelumnya
+
+00:09:54.960 --> 00:09:57.870
+jadi mulai Ramai nih ada dua organisasi
+
+00:09:57.870 --> 00:10:00.370
+lari setelahnya satu mau fokus endi saya
+
+00:10:00.370 --> 00:10:03.070
+email atau mau fokusnya di ATM tapi
+
+00:10:03.070 --> 00:10:05.410
+tetep aja yang punya kuasa terhadap
+
+00:10:05.410 --> 00:10:08.320
+standarisasi masih w3c tapi mulai dari
+
+00:10:08.320 --> 00:10:09.550
+sini mereka berdua berjalan
+
+00:10:09.550 --> 00:10:13.270
+masing-masing ya sampai pada tahun 2006
+
+00:10:13.270 --> 00:10:15.520
+w3c ini kembali tertarik untuk
+
+00:10:15.520 --> 00:10:17.320
+mengembangkan HTML5 mungkin karena
+
+00:10:17.320 --> 00:10:19.180
+melihat orang-orang yang ada di What
+
+00:10:19.180 --> 00:10:21.400
+Wega ini udah mengembangkan html-nya
+
+00:10:21.400 --> 00:10:23.290
+dengan lebih keren gitu ya kembali
+
+00:10:23.290 --> 00:10:25.990
+tertarik nih untuk ikut ngembangin HTML5
+
+00:10:25.990 --> 00:10:28.690
+nah saat itu organisasi Wagini ngijinin
+
+00:10:28.690 --> 00:10:30.550
+lah agar spesifikasi yang udah dibikin
+
+00:10:30.550 --> 00:10:32.980
+sama mereka itu dipublikasikan dengan
+
+00:10:32.980 --> 00:10:35.140
+lisensi dari w3c jadi nggak papalah
+
+00:10:35.140 --> 00:10:37.270
+nantikan mereka juga yang menerapkan
+
+00:10:37.270 --> 00:10:39.310
+standarisasi untuk digunakan di
+
+00:10:39.310 --> 00:10:41.350
+browser-browser Yang ada sekarang udah
+
+00:10:41.350 --> 00:10:42.940
+sampai situ mereka mulai berjalan
+
+00:10:42.940 --> 00:10:45.460
+beriringan untuk mengembangkan HTML5
+
+00:10:45.460 --> 00:10:48.190
+sampai ada drama lagi nih ada konflik
+
+00:10:48.190 --> 00:10:51.490
+lagi di tahun 2011 ama konfliknya jadi
+
+00:10:51.490 --> 00:10:53.850
+katanya w3c ini sebenernya pengen
+
+00:10:53.850 --> 00:10:56.650
+menyelesaikan versi HTML5 ternyata
+
+00:10:56.650 --> 00:10:58.510
+wagenya nggak mau jadi what what gitu
+
+00:10:58.510 --> 00:11:00.709
+pengennya udah nggak usah deh version
+
+00:11:00.709 --> 00:11:03.350
+lagi kita bilang aja versi HTML5 ini
+
+00:11:03.350 --> 00:11:05.360
+akan kita kembangkan terus menjadi
+
+00:11:05.360 --> 00:11:08.239
+sebuah living standards gitu Jadi maunya
+
+00:11:08.239 --> 00:11:11.179
+What Wega ini HTML5 itu berkembang terus
+
+00:11:11.179 --> 00:11:13.040
+terus terus enggak ada versi versinya
+
+00:11:13.040 --> 00:11:15.769
+sedangkan w3c pengennya itu dikunci GTA
+
+00:11:15.769 --> 00:11:17.720
+versi 5 nanti lanjut versi 6 dan
+
+00:11:17.720 --> 00:11:19.519
+seterusnya dan akhirnya selama beberapa
+
+00:11:19.519 --> 00:11:22.009
+tahun jalan masing-masing lagi akhirnya
+
+00:11:22.009 --> 00:11:25.249
+mereka pada tahun 2019 menandatangani
+
+00:11:25.249 --> 00:11:27.589
+perjanjian kerjasama atau perjanjian
+
+00:11:27.589 --> 00:11:29.869
+kesepakatan Ya udahlah kita sepakat lagi
+
+00:11:29.869 --> 00:11:32.929
+agar What WG yang mengembangkan living
+
+00:11:32.929 --> 00:11:34.639
+standards html Jadi mereka yang
+
+00:11:34.639 --> 00:11:36.799
+ngembangin html lewat dokumen yang ada
+
+00:11:36.799 --> 00:11:38.629
+di website ini ya Jadi ini adalah
+
+00:11:38.629 --> 00:11:41.239
+website yang berisi pengembangan dari
+
+00:11:41.239 --> 00:11:44.389
+HTML sampai hari ini lalu w3c yang
+
+00:11:44.389 --> 00:11:46.220
+memfasilitasi jadi nanti kalau misalnya
+
+00:11:46.220 --> 00:11:50.540
+sudah oke w3c akan menstandarisasi lalu
+
+00:11:50.540 --> 00:11:52.489
+mengusulkan agar browser-browser itu
+
+00:11:52.489 --> 00:11:54.410
+menerapkan teknologi yang sudah dibuat
+
+00:11:54.410 --> 00:11:56.689
+gitu temen-temennya Jadi itu perjalanan
+
+00:11:56.689 --> 00:11:58.759
+dari HTML dan kenapa tadi saya bilang
+
+00:11:58.759 --> 00:12:01.650
+sepertinya mulai h kelima ini akan ada
+
+00:12:01.650 --> 00:12:04.290
+lagi versi-versi berikutnya karena html
+
+00:12:04.290 --> 00:12:05.940
+sekarang Itu sudah merupakan lilin
+
+00:12:05.940 --> 00:12:08.340
+standar lihat menjadi cukup seru kalau
+
+00:12:08.340 --> 00:12:10.620
+misalnya kita mengetahui atau menelusuri
+
+00:12:10.620 --> 00:12:12.990
+perjalanan atau sejarah dari sebuah
+
+00:12:12.990 --> 00:12:15.030
+teknologi kalau teman-teman pengen baca
+
+00:12:15.030 --> 00:12:17.280
+Lebih Detail mengenai historynya yah
+
+00:12:17.280 --> 00:12:18.690
+atau sejarahnya teman-teman bisa
+
+00:12:18.690 --> 00:12:20.820
+kunjungin aja website-website ini cerita
+
+00:12:20.820 --> 00:12:22.200
+yang saya sampaikan tadi juga saya ambil
+
+00:12:22.200 --> 00:12:24.270
+dari tiga website ini beda kalau kita
+
+00:12:24.270 --> 00:12:27.660
+kembali ke website html spek w3.org ini
+
+00:12:27.660 --> 00:12:30.090
+ya string saya bilang ini adalah panduan
+
+00:12:30.090 --> 00:12:32.670
+nyala ya untuk teknologi html saat ini
+
+00:12:32.670 --> 00:12:34.620
+kau teman-teman buka item bisa lihat
+
+00:12:34.620 --> 00:12:36.690
+panjang banget spesifikasi dari HTML
+
+00:12:36.690 --> 00:12:38.610
+yang bisa kita pelajari dan sampai saat
+
+00:12:38.610 --> 00:12:40.470
+ini video dibuat dokumen ini telah
+
+00:12:40.470 --> 00:12:43.110
+diupdate tanggal 2juni jadi ini selalu
+
+00:12:43.110 --> 00:12:45.360
+di-update terus makanya teman-teman gua
+
+00:12:45.360 --> 00:12:47.220
+akan baca di dokumen yang panjang ini
+
+00:12:47.220 --> 00:12:49.950
+enggak akan baca HTML5 di dokumen ini
+
+00:12:49.950 --> 00:12:52.440
+karena dia bilangnya hanya html aja ya
+
+00:12:52.440 --> 00:12:54.960
+Jadi ini dibuat oleh WG nanti diapprove
+
+00:12:54.960 --> 00:12:57.050
+oleh w3c baru setelah itu
+
+00:12:57.050 --> 00:13:00.400
+browser-browser akan mengadopsi X yang
+
+00:13:00.400 --> 00:13:02.320
+sudah diusulkan sehingga pada versi
+
+00:13:02.320 --> 00:13:04.270
+update browser berikutnya teknologi
+
+00:13:04.270 --> 00:13:05.740
+barunya akan diterapkan jadi makanya
+
+00:13:05.740 --> 00:13:07.720
+Saran saya teman-teman rajin-rajinlah
+
+00:13:07.720 --> 00:13:09.310
+untuk mengupdate browsernya
+
+00:13:09.310 --> 00:13:11.470
+masing-masing Nah jadi kalau kita
+
+00:13:11.470 --> 00:13:14.020
+kembali lagi ke pertanyaan awal tadi Apa
+
+00:13:14.020 --> 00:13:17.320
+sih HTML5 nah sebenarnya temen-temennya
+
+00:13:17.320 --> 00:13:19.620
+sebenarnya penjelasan yang dikasih dari
+
+00:13:19.620 --> 00:13:22.630
+Wega itu beginilah jadi kalau kita baca
+
+00:13:22.630 --> 00:13:25.270
+going forward the what the bridges
+
+00:13:25.270 --> 00:13:28.300
+Working on xml without worrying about
+
+00:13:28.300 --> 00:13:30.610
+birthday numbers when people talk about
+
+00:13:30.610 --> 00:13:33.520
+eight live in the context of what the DJ
+
+00:13:33.520 --> 00:13:36.520
+they usually mean Justin latest work on
+
+00:13:36.520 --> 00:13:39.490
+SML not necessarily a specific reasons
+
+00:13:39.490 --> 00:13:42.130
+artinya apa jadi kedepannya katanya ya
+
+00:13:42.130 --> 00:13:45.550
+what Wega ini hanya akan mengerjakan
+
+00:13:45.550 --> 00:13:48.300
+html tanpa perlu khawatir mengenai
+
+00:13:48.300 --> 00:13:51.640
+versinya Jadi kalau misalkan orang-orang
+
+00:13:51.640 --> 00:13:54.730
+bicara tentang HTML5 dengan konteks
+
+00:13:54.730 --> 00:13:58.120
+dibuat wga Tentu saja itu artinya adalah
+
+00:13:58.120 --> 00:14:01.730
+html yang baru-baru Jadi bukan versi
+
+00:14:01.730 --> 00:14:04.069
+dari html-nya Jadi kalau udah ngomongin
+
+00:14:04.069 --> 00:14:07.189
+HTML5 artinya html yang terbaru gitu aja
+
+00:14:07.189 --> 00:14:09.230
+dan ini membuat kemungkinan nggak akan
+
+00:14:09.230 --> 00:14:12.079
+ada html 6 karena HTML5 akan selalu
+
+00:14:12.079 --> 00:14:14.720
+diperbaharui itu temennya mudah-mudahan
+
+00:14:14.720 --> 00:14:16.939
+menjawab Ya kalau sebelumnya teman-teman
+
+00:14:16.939 --> 00:14:18.829
+ada yang bertanya berat mi5 tuh apa
+
+00:14:18.829 --> 00:14:20.899
+karena html5test sudah ada dari sejak
+
+00:14:20.899 --> 00:14:23.600
+tahun 2004 yang lalu itu kenapa nggak di
+
+00:14:23.600 --> 00:14:25.309
+update update udah bertahun-tahun tapi
+
+00:14:25.309 --> 00:14:27.619
+enggak jadi html 6 yaitu alasannya ya
+
+00:14:27.619 --> 00:14:29.029
+sekarang kalau misalkan teman-teman
+
+00:14:29.029 --> 00:14:31.399
+lihat struktur dari HTML5 yang mungkin
+
+00:14:31.399 --> 00:14:32.869
+Udah pada tahu kalau misalkan kita mau
+
+00:14:32.869 --> 00:14:35.509
+bikin dokumen HTML 5 karang itu kan kita
+
+00:14:35.509 --> 00:14:38.629
+cukup nulis aja seperti ini jadi simpel
+
+00:14:38.629 --> 00:14:41.569
+kita tinggal tulis doctype html ini
+
+00:14:41.569 --> 00:14:44.809
+artinya html versi terbaru itu kalau
+
+00:14:44.809 --> 00:14:46.999
+sebelumnya itu cukup Repot ya kalau kita
+
+00:14:46.999 --> 00:14:49.629
+mau nulis html Oke kita harus tahu dulu
+
+00:14:49.629 --> 00:14:51.920
+versinya Jadi kalau dulu nulisnya itu
+
+00:14:51.920 --> 00:14:54.439
+begini kalau mau versi 4 kita kasih tahu
+
+00:14:54.439 --> 00:14:56.749
+dulu empatnya yang apa kita kasih tahu
+
+00:14:56.749 --> 00:14:58.939
+empatnya yang strip atau empatnya yang
+
+00:14:58.939 --> 00:15:02.190
+transisional atau mau xhtml jadi
+
+00:15:02.190 --> 00:15:04.530
+masing-masing dari ini akan divalidasi
+
+00:15:04.530 --> 00:15:07.260
+dengan cara yang berbeda itu jadi kita
+
+00:15:07.260 --> 00:15:09.690
+bisa aja nulis html-nya bener tapi tidak
+
+00:15:09.690 --> 00:15:12.150
+valid karena tipenya salah tapi dengan
+
+00:15:12.150 --> 00:15:14.310
+menggunakan HTML5 udah cukup seperti ini
+
+00:15:14.310 --> 00:15:16.980
+aja Nah jadi tuh mengenai perjalanan
+
+00:15:16.980 --> 00:15:18.870
+HTML5 sekarang mungkin pertanyaannya
+
+00:15:18.870 --> 00:15:20.880
+adalah Terus yang baru apa dong Pak di
+
+00:15:20.880 --> 00:15:23.280
+HTML5 Apa sih bedanya dengan html
+
+00:15:23.280 --> 00:15:25.050
+sebelumnya Jadi sebetulnya yang baru di
+
+00:15:25.050 --> 00:15:27.210
+HTML5 ini cukup banyak ya Beberapa
+
+00:15:27.210 --> 00:15:29.400
+diantaranya saya pilih enam aja karena
+
+00:15:29.400 --> 00:15:31.140
+inilah yang akan kita pelajari di
+
+00:15:31.140 --> 00:15:33.570
+playlist ini ya Jadi yang pertama ada
+
+00:15:33.570 --> 00:15:34.850
+yang disebut dengan semantik
+
+00:15:34.850 --> 00:15:37.290
+elemen-elemen elemen baru yang memiliki
+
+00:15:37.290 --> 00:15:39.540
+makna semantik kalau sebelumnya kita
+
+00:15:39.540 --> 00:15:41.220
+misalnya menggunakan DVD dengan kelas
+
+00:15:41.220 --> 00:15:43.290
+tertentu yadif dengan close header di
+
+00:15:43.290 --> 00:15:45.450
+dengan kelas water sekarang udah ada
+
+00:15:45.450 --> 00:15:47.880
+tag-tag yang khusus menangani menangani
+
+00:15:47.880 --> 00:15:50.220
+itu tidak ada tag header ada teh futher
+
+00:15:50.220 --> 00:15:53.190
+ada tection dan lain sebagainya Terus
+
+00:15:53.190 --> 00:15:55.440
+yang kedua ada mediaelement ya sekarang
+
+00:15:55.440 --> 00:15:57.330
+kita bisa nyimpen baik-baik atau
+
+00:15:57.330 --> 00:16:00.010
+elemen-elemen untuk media misalnya
+
+00:16:00.010 --> 00:16:02.380
+berpikir dhyo.haw audio terus juga kita
+
+00:16:02.380 --> 00:16:05.140
+bisa menggunakan kanvas dan juga SPG
+
+00:16:05.140 --> 00:16:06.820
+sekarang ini menarik ya teman-temannya
+
+00:16:06.820 --> 00:16:09.060
+berikutnya banyak sekali
+
+00:16:09.060 --> 00:16:11.230
+formvalidation.io kita gunakan Apakah
+
+00:16:11.230 --> 00:16:12.910
+forum yang harus ditulis dengan angka
+
+00:16:12.910 --> 00:16:15.940
+dengan teks harus formatnya email harus
+
+00:16:15.940 --> 00:16:18.280
+diisi dan masih banyak lagi terus juga
+
+00:16:18.280 --> 00:16:20.260
+ada teknologi yang namanya web.tor Age
+
+00:16:20.260 --> 00:16:21.970
+jadi kita bisa menyimpan data
+
+00:16:21.970 --> 00:16:24.790
+menggunakan sebuah webstorage dan yang
+
+00:16:24.790 --> 00:16:26.770
+keenam ini enggak kalah menarik Kita
+
+00:16:26.770 --> 00:16:29.860
+akan pelajari teknologi HTML5 ini yang
+
+00:16:29.860 --> 00:16:32.080
+ada kaitannya dengan aksesibilitas atau
+
+00:16:32.080 --> 00:16:34.240
+accessibility ya jadi inilah beberapa
+
+00:16:34.240 --> 00:16:36.700
+fitur baru yang ada di HTML5 yang akan
+
+00:16:36.700 --> 00:16:39.100
+kita pelajari di seri atau playlist ini
+
+00:16:39.100 --> 00:16:40.810
+Dan Terakhir kalau misalkan temen-temen
+
+00:16:40.810 --> 00:16:42.400
+pengen belajar lebih lanjut mengenai
+
+00:16:42.400 --> 00:16:44.740
+HTML5 ini ada beberapa sumber yang bisa
+
+00:16:44.740 --> 00:16:47.200
+kalian kunjungi ya ini ada beberapa yang
+
+00:16:47.200 --> 00:16:48.790
+pertama kalau teman-teman paling lihat
+
+00:16:48.790 --> 00:16:50.560
+dokumen resmi tadi udah kita lihat ya
+
+00:16:50.560 --> 00:16:53.110
+ada yang namanya html spek WG Terus
+
+00:16:53.110 --> 00:16:54.790
+kalau pengen tahu ada email yang
+
+00:16:54.790 --> 00:16:56.500
+teman-teman buat itu udah valid apa
+
+00:16:56.500 --> 00:16:59.050
+belum gunakan validator milik warganya
+
+00:16:59.050 --> 00:17:02.179
+langsung Kalau tahu apakah elemen-elemen
+
+00:17:02.179 --> 00:17:04.130
+yang ada di ATM 5 ini udah bisa
+
+00:17:04.130 --> 00:17:06.648
+digunakan di semua browser atau belum
+
+00:17:06.648 --> 00:17:09.199
+penuh bisa kunjungi dua ini Ken Ayus
+
+00:17:09.199 --> 00:17:10.689
+sama developer
+
+00:17:10.689 --> 00:17:12.890
+mozilla.org kalau teman-teman pengen
+
+00:17:12.890 --> 00:17:15.380
+tahu penggunaan dari setiap elemen yang
+
+00:17:15.380 --> 00:17:17.569
+ada di HTML5 kunjungi dua website ini
+
+00:17:17.569 --> 00:17:21.559
+ada HTML5 dokter ada dive into HTML5 dot
+
+00:17:21.559 --> 00:17:24.648
+info karena Jadi mungkin wajah pengantar
+
+00:17:24.648 --> 00:17:27.890
+untuk seri atau playlist HTML5 kita yang
+
+00:17:27.890 --> 00:17:29.240
+beneran teman-teman semangat ngikutin
+
+00:17:29.240 --> 00:17:31.549
+serinya karena Pastinya seru banget ya
+
+00:17:31.549 --> 00:17:33.649
+mungkin untuk HTML5 ini banyak yang
+
+00:17:33.649 --> 00:17:35.179
+sudah belajar banyak yang sudah paham
+
+00:17:35.179 --> 00:17:38.059
+juga tapi banyak juga yang menyepelekan
+
+00:17:38.059 --> 00:17:39.799
+atau menganggap remeh karena sepertinya
+
+00:17:39.799 --> 00:17:42.919
+html itu ada topik yang gampang dan gak
+
+00:17:42.919 --> 00:17:44.390
+banyak di tempat harinya padahal
+
+00:17:44.390 --> 00:17:46.220
+sebetulnya cukup banyak juga yang harus
+
+00:17:46.220 --> 00:17:48.200
+kita pelajari dan di video berikutnya
+
+00:17:48.200 --> 00:17:50.390
+kita akan mulai masuk untuk membahas
+
+00:17:50.390 --> 00:17:52.880
+mengenai elemen-elemen semantik apa aja
+
+00:17:52.880 --> 00:17:55.340
+yang bisa kita gunakan agar penulisan
+
+00:17:55.340 --> 00:17:57.740
+dokumen html kita lebih baik lagi Oke
+
+00:17:57.740 --> 00:17:59.450
+jadi Mungkin itu saja untuk video
+
+00:17:59.450 --> 00:18:01.139
+pertama ah terima kasih teman-teman
+
+00:18:01.139 --> 00:18:03.149
+sudah menyaksikan kita ketemu lagi di
+
+00:18:03.149 --> 00:18:04.979
+episode berikutnya dari tadi kagak di
+
+00:18:04.979 --> 00:18:06.809
+pamit dan seperti biasa teman-teman
+
+00:18:06.809 --> 00:18:10.460
+jangan lupa titik koma lalu
+
+00:18:12.390 --> 00:18:28.349
+[Musik]
+
