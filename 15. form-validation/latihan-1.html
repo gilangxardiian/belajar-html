@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      form {
+        width: 600px;
+        padding: 20px;
+      }
+
+      form div {
+        margin: 10px;
+      }
+
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <div>
+        <label for="nama">Masukan Nama: </label>
+        <input type="text" id="nama" name="nama" />
+      </div>
+
+      <div>
+        <label for="email">Masukan Email: </label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div>
+        <label for="noHp">Masukan No HP: </label>
+        <input type="tel" id="noHp" name="noHp" />
+      </div>
+
+      <div>
+        <label for="website">Masukan URL Website: </label>
+        <input type="url" id="website" name="website" />
+      </div>
+
+      <div>
+        <label for="angka">Masukan Angka: </label>
+        <input type="number" id="angka" name="angka" />
+      </div>
+
+      <div>
+        <label for="slider">Masukan Angka: </label>
+        <input type="range" id="slider" name="slider" />
+      </div>
+
+      <div>
+        <label for="tanggal">Masukan Tanggal: </label>
+        <input type="date" id="tanggal" name="tanggal" />
+      </div>
+
+      <div>
+        <label for="warna">Masukan Warna: </label>
+        <input type="color" id="warna" name="warna" />
+      </div>
+
+      <div>
+        <button type="submit">Kirim!</button>
+      </div>
+    </form>
+  </body>
+</html>
