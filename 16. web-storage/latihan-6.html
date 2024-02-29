@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Storage | Local</title>
+    <style>
+      a {
+        color: inherit;
+      }
+
+      .dark-mode {
+        background-color: #222;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="judul">Selamat Datang, Gilang!</h1>
+    <a href="" onclick="gantiNama()">Ganti Nama</a>
+    <a href="" onclick="hapusNama()">Hapus Nama</a>
+    <a href="" class="toggle">Dark Mode</a>
+    <a href="" onclick="hapusStorage()">Hapus Storage</a>
+    <script>
+      const judul = document.querySelector("#judul");
+
+      // ambil nama di local storage
+      let nama = localStorage.getItem("nama");
+
+      // jika tidak ada
+      if (!nama) {
+        // maka set local storage
+        nama = prompt("masukan nama anda: ");
+        localStorage.setItem("nama", nama);
+      }
+
+      judul.innerHTML = `Selamat Datang, ${nama}!`;
+
+      // fungsi untuk ganti nama
+      const gantiNama = (e) => {
+        nama = prompt("masukan nama baru: ");
+        localStorage.setItem("nama", nama);
+        e.preventDefault();
+      };
+
+      // fungsi hapus nama
+      const hapusNama = (e) => {
+        localStorage.removeItem("nama");
+        e.preventDefault();
+      };
+
+      // toggle dark mode
+      const toggle = document.querySelector(".toggle");
+
+      // ambil tema di local storage
+      let tema = localStorage.getItem("tema");
+
+      // jika di local tidak ada
+      if (!tema) {
+        localStorage.setItem("tema", "light");
+      }
+
+      // fungsi dark mode
+      const darkMode = () => {
+        document.body.classList.add("dark-mode");
+        toggle.innerHTML = "Light Mode";
+        localStorage.setItem("tema", "dark");
+      };
+
+      // fungsi light mode
+      const lightMode = () => {
+        document.body.classList.remove("dark-mode");
+        toggle.innerHTML = "Dark Mode";
+        localStorage.setItem("tema", "light");
+      };
+
+      // jika tema awal nya gelap maka jalankan fungsi
+      if (tema === "dark") {
+        darkMode();
+      }
+
+      // ketika tombol diklik
+      toggle.addEventListener("click", function (e) {
+        // ambil tema dari local
+        tema = localStorage.getItem("tema");
+        // jika tema di local light
+        if (tema === "light") {
+          // maka ubah ke dark
+          darkMode();
+        } else {
+          // selain itu ubah ke light
+          lightMode();
+        }
+
+        e.preventDefault();
+      });
+
+      // fungsi hapus storage
+      const hapusStorage = (e) => {
+        localStorage.clear();
+        e.preventDefault();
+      };
+    </script>
+  </body>
+</html>

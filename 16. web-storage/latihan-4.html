@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Storage | Local</title>
+  </head>
+  <body>
+    <h1 id="judul">Selamat Datang, Gilang!</h1>
+    <a href="" onclick="gantiNama()">Ganti Nama</a>
+    <a href="" onclick="hapusNama()">Hapus Nama</a>
+    <script>
+      const judul = document.querySelector("#judul");
+
+      // ambil nama di local storage
+      let nama = localStorage.getItem("nama");
+      // jika tidak ada
+      if (!nama) {
+        // maka set local storage
+        nama = prompt("masukan nama anda: ");
+        localStorage.setItem("nama", nama);
+      }
+
+      judul.innerHTML = `Selamat Datang, ${nama}!`;
+
+      // fungsi untuk ganti nama
+      const gantiNama = (e) => {
+        nama = prompt("masukan nama baru: ");
+        localStorage.setItem("nama", nama);
+        e.preventDefault();
+      };
+
+      // fungsi hapus nama
+      const hapusNama = (e) => {
+        localStorage.removeItem("nama");
+        e.preventDefault();
+      };
+    </script>
+  </body>
+</html>

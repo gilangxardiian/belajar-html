@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Storage | Session</title>
+  </head>
+  <body>
+    <h1 id="judul">Selamat Datang, Gilang!</h1>
+
+    <script>
+      const judul = document.querySelector("#judul");
+
+      // ambil nama di session storage
+      let nama = sessionStorage.getItem("nama");
+      // jika tidak ada
+      if (!nama) {
+        // maka set session storage
+        nama = prompt("masukan nama anda: ");
+        sessionStorage.setItem("nama", nama);
+      }
+
+      judul.innerHTML = `Selamat Datang, ${nama}!`;
+    </script>
+  </body>
+</html>
