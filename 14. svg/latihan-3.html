@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG</title>
+    <style>
+      svg {
+        display: block;
+        margin: 20px;
+        background-color: #eee;
+      }
+
+      .satu {
+        background-color: #ddd;
+        width: 300px;
+        height: 300px;
+      }
+
+      .kotak-1 {
+        width: 100px;
+        height: 100px;
+        fill: salmon;
+        x: 50;
+        y: 50;
+      }
+
+      .dua {
+        width: 150px;
+        height: 150px;
+      }
+
+      .kotak-2 {
+        width: 100px;
+        height: 100px;
+        fill: lightblue;
+      }
+
+      .lingkaran-1 {
+        r: 50;
+        cx: 50;
+        cy: 50;
+        fill: salmon;
+      }
+
+      .kotak-3 {
+        width: 70px;
+        height: 70px;
+        x: 15;
+        y: 15;
+      }
+
+      .tiga {
+        width: 200px;
+        height: 200px;
+      }
+
+      .lingkaran-2 {
+        r: 80;
+        cx: 100;
+        cy: 100;
+        fill: yellow;
+        stroke-width: 5px;
+        stroke: green;
+      }
+
+      .empat {
+        width: 400px;
+        height: 200px;
+      }
+
+      .segitiga-1 {
+        fill: lime;
+        fill-rule: evenodd;
+        stroke: purple;
+        stroke-width: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <svg class="satu" viewBox="50 50 300 300">
+      <rect class="kotak-1" />
+    </svg>
+
+    <svg class="dua">
+      <rect class="kotak-2" />
+      <circle class="lingkaran-1" />
+      <rect class="kotak-3" />
+    </svg>
+
+    <svg class="tiga">
+      <circle class="lingkaran-2" />
+    </svg>
+
+    <svg class="empat">
+      <polygon class="segitiga-1" points="100,10 40,198 190,78 10,78 160,198">
+    </svg>
+  </body>
+</html>
