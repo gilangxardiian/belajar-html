@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio dan Video</title>
+  </head>
+  <body>
+    <!-- cara-1 untuk menampilkan video
+    <video src="video/1.mp4" width="400" controls></video> -->
+
+    <!-- cara-2 untuk menampilkan video -->
+    <figure>
+      <figcaption>Rintikan Hujan</figcaption>
+      <video width="400" poster="img/poster.png" loop autoplay muted>
+        <source src="video/1.webm" type="video/webm" />
+        <source src="video/1.mp4" type="video/mp4" />
+        Borwser tidak mendukung <code>video</code>
+      </video>
+    </figure>
+  </body>
+</html>
